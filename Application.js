@@ -5,8 +5,8 @@ import {
     MiddleWares
 } from 'dashaping'
 
-import Controllers from './src/controllers'
-import LogMiddleWare from './src/middleWares'
+import Controllers from '@controllers'
+import LogMiddleWare from '@middleWares'
 
 @Run
 @MiddleWares([LogMiddleWare])

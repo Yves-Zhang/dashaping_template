@@ -21,9 +21,8 @@
     "nodemailer": "^6.4.11",
     "nodemon": "^2.0.4",
     "npm": "^6.14.7",
-    "yamljs": "^0.3.0"
-  },
-  "devDependencies": {
+    "yamljs": "^0.3.0",
+    "module-alias": "^2.2.2",
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
@@ -33,5 +32,13 @@
     "@babel/register": "^7.10.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {},
+  "_moduleAliases": {
+    "@src": "src",
+    "@www": "www",
+    "@controllers": "src/controllers",
+    "@middleWares": "src/middleWares",
+    "@service": "src/service"
   }
 }
